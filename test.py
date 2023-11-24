@@ -1,1 +1,1 @@
-print("Code from privetiki")
+print("Code from privetiki[:(]")
