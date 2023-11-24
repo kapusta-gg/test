@@ -1,2 +1,2 @@
 print("Code from privetiki[:(]")
-print()
+print("")
