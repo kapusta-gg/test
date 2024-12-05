@@ -59,10 +59,8 @@ def factorial_mathematical_model(x1: tuple[str, float], x2: tuple[str, float], x
     table123 = ("123", "+--+-++-")
     factors_max = [x1[VALUE] * 1.1, x2[VALUE] * 1.1, x3[VALUE] * 1.1]
     factors_min = [x1[VALUE] * 0.9, x2[VALUE] * 0.9, x3[VALUE] * 0.9]
-
     table_dict = {"+": factors_max,
                   "-": factors_min}
-
     print("Факторы:", end="\n")
     for i in range(3):
         print("+" * 20)
