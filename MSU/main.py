@@ -81,7 +81,7 @@ def factorial_mathematical_model(x1: tuple[str, float], x2: tuple[str, float], x
         y.append(res)
         print(f"Номер эксперимента: {i}; Набор: {n_exp}; y_{i} = {res}")
 
-    print("-" * 40)
+    print("-" * 41)
 
     b = []
     print("Коэффициенты факторной мат. модели")
