@@ -72,9 +72,7 @@ def factorial_mathematical_model(x1: tuple[str, float], x2: tuple[str, float], x
         print(f"Минимальное значение {factors_min[i]}")
         print("+" * 20)
         print()
-
     print("-" * 40)
-
     y = []
     print("Матриц значений экспериментов")
     for i in range(1, 9):
