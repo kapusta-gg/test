@@ -24,7 +24,7 @@ def euler_method(A, B, C, D=0, h=0.001, start_t=0, end_t=10, degree=2):
     for i in range(len(y_l)):
         if y_l[i] >= y_l[-1] * 0.95:
             return [t[i]]
-def foo()
+def foo():
     pass
 def get_matrixs(x1: float, x2: float, x3: float):
     R1 = x1
