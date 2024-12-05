@@ -46,16 +46,16 @@ def factorial_mathematical_model(x1: tuple[str, float], x2: tuple[str, float], x
     print("-" * 40)
 
     table_value = ["+++",
-                   "-++",
+                   "-0+",
                    "+-+",
-                   "--+",
+                   "-0+",
                    "++-",
                    "-+-",
                    "+--",
                    "---"]
-    table12 = ("12", "+--++--+")
-    table13 = ("13", "+-+--+-+")
-    table23 = ("23", "++----++")
+    table12 = ("13", "+--++--+")
+    table13 = ("14", "+-+--+-+")
+    table23 = ("25", "++----++")
     table123 = ("123", "+--+-++-")
     factors_max = [x1[VALUE] * 1.1, x2[VALUE] * 1.1, x3[VALUE] * 1.1]
     factors_min = [x1[VALUE] * 0.9, x2[VALUE] * 0.9, x3[VALUE] * 0.9]
