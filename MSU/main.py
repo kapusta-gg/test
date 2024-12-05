@@ -46,9 +46,9 @@ def factorial_mathematical_model(x1: tuple[str, float], x2: tuple[str, float], x
     print("-" * 40)
 
     table_value = ["+++",
-                   "-0+",
+                   "-=+",
                    "+-+",
-                   "-0+",
+                   "-=+",
                    "++-",
                    "-+-",
                    "+--",
